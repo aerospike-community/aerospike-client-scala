@@ -20,5 +20,11 @@ libraryDependencies += "com.github.reugn" %% "aerospike-core" % "<version>"
 ```
 * replace `aerospike-core` with `aerospike-monix` or `aerospike-zio` if required.
 
+## Build from Source
+1. Clone the repository
+2. Run `sbt clean +package` 
+
+This will create libraries for all modules for both Scala 2.12 and 2.13.
+
 ## License
 Licensed under the [Apache 2.0 License](./LICENSE).
